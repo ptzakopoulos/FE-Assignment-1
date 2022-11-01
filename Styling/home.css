@@ -1,0 +1,31 @@
+/* ~~~~~~~~~~~~~~ Container 2 - Images ~~~~~~~~~~~~~~ */
+#container2 img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+#img1 {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+#img2 {
+  top: 70px;
+  right: 350px;
+  z-index: 2;
+}
+#img3 {
+  top: 300px;
+  right: 50px;
+  z-index: 3;
+}
+#img4 {
+  top: 370px;
+  right: 400px;
+  z-index: 4;
+}
+/* ~~~~~~~~~~~~~~ Container 3 ~~~~~~~~~~~~~~ */
+#container3 img {
+  width: 900px;
+  height: 800px;
+}
