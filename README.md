@@ -29,8 +29,16 @@ A static web site about a potential Tattoo Artist.
 
 # Global Classes
 
-- test
-
-* test
-
-- test
+- .header
+- .container
+-     .left-box
+-       .content-box
+-         .title
+-         .text
+-         .button
+-     .right-box
+-       .content-box
+-         .title
+-         .text
+-         .button
+- .footer
