@@ -1,21 +1,130 @@
 :root {
   /* ~~~~~~~~~~~~~~ Color Collection ~~~~~~~~~~~~~~ */
   --body-bg: #45483d;
-  --nav-item-color: #fff;
+  --nav-item-color: #d5c7ba;
   --title-color: #c5874a;
-  --text-color: #fff;
+  --text-color: #bccbce;
   --button-bg: #855950;
   --icon-color: #c5874a;
   /* ~~~~~~~~~~~~~~ Font Sizes ~~~~~~~~~~~~~~ */
-  --nav-item-size: 24px;
+  --nav-item-size: 18px;
   --title-size: 48px;
-  --text-size: 30px;
+  --text-size: 20px;
 }
 * {
   margin: 0;
   padding: 0;
 }
-/* ~~~~ Home Elements ~~~~ */
+@font-face {
+  font-family: Title;
+  src: url(./Fonts/spinwerad/spinwerad.ttf);
+}
+@font-face {
+  font-family: ContentText;
+  src: url(./Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
 body {
   background-color: var(--body-bg);
 }
+/* ~~~~~~~~~~~~~~ Nav bar Item Styling ~~~~~~~~~~~~~~ */
+.nav-menu {
+  width: 600px;
+  float: right;
+  padding: 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: var(--nav-item-color);
+  font-size: var(--nav-item-size);
+  font-family: ContentText;
+}
+a:hover {
+  color: white;
+}
+/* ~~~~~~~~~~~~~~ Title Styling ~~~~~~~~~~~~~~ */
+.title {
+  font-family: Title;
+  font-size: var(--title-size);
+  color: var(--title-color);
+}
+/* ~~~~~~~~~~~~~~ Text Styling ~~~~~~~~~~~~~~ */
+.text {
+  font-family: ContentText;
+  font-size: var(--text-size);
+  color: var(--text-color);
+}
+/* ~~~~~~~~~~~~~~ Header Styling ~~~~~~~~~~~~~~ */
+.header {
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+/* ~~~~~~~~~~~~~~ Container Styling ~~~~~~~~~~~~~~ */
+.container {
+  width: 100%;
+  height: 1080px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+/* ~~~~~~~~~~~~~~ Box Styling ~~~~~~~~~~~~~~ */
+.left-box,
+.right-box {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.content-box {
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-box > * {
+  margin-top: 20px;
+}
+/* ~~~~~~~~~~~~~~ Button Styling ~~~~~~~~~~~~~~ */
+.button {
+  border: 2px solid #d5c7ba00;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--nav-item-color);
+  font-size: var(--nav-item-size);
+  animation-duration: 0.5s;
+  animation-name: none;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+.button:hover {
+  animation-name: fade;
+}
+@keyframes fade {
+  from {
+    background-color: #855950;
+  }
+  to {
+    background-color: #85595000;
+  }
+  from {
+    border-color: #d5c7ba00;
+  }
+  to {
+    border-color: #d5c7ba;
+  }
+}
+/* ~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~ */
