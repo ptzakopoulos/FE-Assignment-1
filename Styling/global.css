@@ -1,0 +1,21 @@
+:root {
+  /* ~~~~~~~~~~~~~~ Color Collection ~~~~~~~~~~~~~~ */
+  --body-bg: #45483d;
+  --nav-item-color: #fff;
+  --title-color: #c5874a;
+  --text-color: #fff;
+  --button-bg: #855950;
+  --icon-color: #c5874a;
+  /* ~~~~~~~~~~~~~~ Font Sizes ~~~~~~~~~~~~~~ */
+  --nav-item-size: 24px;
+  --title-size: 48px;
+  --text-size: 30px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ~~~~ Home Elements ~~~~ */
+body {
+  background-color: var(--body-bg);
+}
