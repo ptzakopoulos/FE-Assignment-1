@@ -29,18 +29,20 @@ A static web site about a potential Tattoo Artist.
 
 # Global Classes
 
-.header
-.container
+<header>
+  <logo>
+  <nav-menu>
 
-> .left-box
-> \-.content-box
-> \-\- .title
-> \-\- .text
-> \-\- .button
-> .right-box
-> \- .content-box
-> \-\- .title
-> \-\- .text
-> \-\- .button
+<container>
+  <left-box>
+    <content-box>
+      <title>
+      <text>
+      <button>
+  <right-box>
+    <content-box>
+      <title>
+      <text>
+      <button>
 
-.footer
+<footer>
