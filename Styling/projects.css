@@ -1,0 +1,33 @@
+:root {
+  --colored: #c4a497;
+  --bw: #d5c7ba;
+}
+/* ~~~~~~~~~~~~~~ Filter Bar ~~~~~~~~~~~~~~ */
+.filter {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.filter > a {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.filter > a:first-child {
+  border-bottom: 2px solid white;
+  color: white;
+}
+/* ~~~~~~~~~~~~~~ Project Container ~~~~~~~~~~~~~~ */
+.project-container {
+  text-align: center;
+}
+/* ~~~~~~~~~~~~~~ Img Styling ~~~~~~~~~~~~~~ */
+.project-item {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  margin: 20px;
+}
