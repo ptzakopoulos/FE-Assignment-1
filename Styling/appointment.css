@@ -1,0 +1,60 @@
+@font-face {
+  font-family: cntText;
+  src: url(./Fonts/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+.container {
+  text-align: center;
+}
+form {
+  width: 500px;
+  height: 700px;
+
+  display: inline-block;
+}
+.left-form,
+.right-form {
+  width: 50%;
+  height: 200px;
+
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.right-form {
+  padding-left: 35px;
+}
+form > * {
+  font-family: cntTex1;
+}
+form input {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 25px;
+}
+#date {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+#msg {
+  box-sizing: border-box;
+  margin-top: 30px;
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 25px;
+  font-size: 17px;
+  padding: 10px;
+}
+.button {
+  background-color: var(--icon-color);
+}
+#attachment {
+  margin-top: 30px;
+  width: 113px;
+}
