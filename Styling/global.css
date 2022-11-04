@@ -26,12 +26,21 @@
 body {
   background-color: var(--body-bg);
 }
+/* ~~~~~~~~~~~~~~ Logo ~~~~~~~~~~~~~~ */
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url(./logo.png);
+  background-size: contain;
+  float: left;
+  margin: 20px;
+}
 /* ~~~~~~~~~~~~~~ Nav bar Item Styling ~~~~~~~~~~~~~~ */
 .nav-menu {
   width: 600px;
   float: right;
   padding: 20px;
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
