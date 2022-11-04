@@ -29,3 +29,55 @@
   width: 900px;
   height: 800px;
 }
+/* ~~~~~~~~~~~~~~ Button > Clicked Div ~~~~~~~~~~~~~~ */
+.clicked {
+  width: 0;
+  height: 0;
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: 0;
+  margin-left: 0;
+  background: rgba(255, 255, 255, 1);
+  animation-duration: 0.25s;
+  animation-name: none;
+  z-index: -1;
+}
+/* ~~~~~~~~~~~~~~ Button Active ~~~~~~~~~~~~~~ */
+@keyframes clicked {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: -75px;
+  } /* 100% -> Button Width 150px */
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -25px;
+  }
+  from {
+    background-color: rgba(255, 255, 255, 1);
+  }
+  to {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+button a {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}

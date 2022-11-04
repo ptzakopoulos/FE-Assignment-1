@@ -134,6 +134,7 @@ a:hover {
   animation-fill-mode: forwards;
   animation-direction: alternate;
   margin-top: 50px;
+  position: relative;
 }
 .button:hover {
   animation-name: fade;
